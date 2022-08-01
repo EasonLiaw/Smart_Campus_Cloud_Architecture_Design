@@ -1,8 +1,28 @@
 # Smart_Campus_Cloud_Architecture_Design
 
+<img src="https://user-images.githubusercontent.com/34255556/182169260-84b87de5-65a3-4670-8963-b870507aa658.png" height="500" width="1000">
+
 Scalability is one of the well-known problem spaces in web hosting for universities. Traditionally, web applications are deployed using a three-tier web application model that consists of presentation, application and database layers. Prior to the existence of cloud solutions, scalability was provided by adding additional hosts onto these layers with some form of built-in performance, failover and availability features like load balancers and firewalls for security. Eventually, there will be web application hosting issues like infrastructure challenges and architectural issues for dealing with server availability within a traditional web-hosting environment for universities. Therefore, cloud service providers like AWS help universities to provide a seamless transition from traditional web-hosting to a cloud based web-hosting environment. 
 
 Implementing an AWS cloud solution is a cost-effective alternative to having servers with very large capacities to handle workload peaks. Dealing with unexpected traffic spikes is one of the major issues that traditional web-hosting environments have to deal with, as time is required to research and survey for suitable servers to purchase with huge upfront investment cost. Thus, web applications hosted by AWS can leverage on-demand or reserved provisioning of additional servers within a few minutes, so that the university can constantly adjust capacity and costs to actual traffic behaviours with minimal downtime. Automatic scaling approach is one of the most useful features that a cloud solution provides, which a traditional web-hosting environment could not provide.
+
+---
+
+## Why AWS?
+- Automatic scaling approach in AWS helps handling seasonal traffic spikes cost-effectively with on-demand or reserved provisioning of additional servers within minutes. University can constantly adjust capacity and costs to match the actual traffic behaviours with minimal downtime.
+- Testing and pre-production environments are essential to ensure optimum quality of the web application at every stage of the development cycle and AWS cloud easily provides an isolated environment for these purpose.
+- With on-demand or reserved basis pricing mechanism, AWS cloud minimizes the cost of web-hosting as it eliminates the requirement for pre-provisioning resources several days in advance prior to actual usage.
+
+---
+
+## Project Goals & Objectives
+### Goals
+- Designing a cost-effective cloud based web-hosting environment
+
+### Objectives
+- Minimize the cost of web hosting environment by proposing a scalable cloud solution architecture.
+- Maximize availability and security of the cloud based web-hosting environment.
+- Maximize the storage with better accessibility for a minimum cost
 
 ---
 
@@ -100,6 +120,8 @@ Amazon CloudWatch provides real-time monitoring of AWS resources and customer ap
 Alerts can also be configured through setting rules and trigger alarms by sending notifications using Amazon SNS (Simple Notification Service). Amazon SNS allows cloud operation teams to push messages to Windows, Google, Apple and certain internet-connected smart devices by using an application programming interface (API) or through the AWS management console. Once a message is published to the service, it can be sent multiple times to different recipients through a topic that acts as the access point for both publishing alerts and subscribing to receive future alerts based on publish-subscribe model.
 
 Amazon CloudTrail enables governance, compliance, operational auditing and risk auditing of the university’s AWS account. With CloudTrail, users can log, continuously monitor and retain account activity related to actions across their customized AWS cloud infrastructure. CloudTrail provides event history of AWS account activity, including actions taken through the AWS Management Console, command line tools and other AWS services. In addition, you can use CloudTrail insights to detect users who took certain anomaly actions to respond to accordingly.
+
+---
 
 ### Legality
 This is an internship project made with 360DIGITMG for non-commercial uses ONLY. This project will not be used to generate any promotional or monetary value for me, the creator, or the user.
